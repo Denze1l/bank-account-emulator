@@ -1,0 +1,10 @@
+.balance {
+  padding: 40px 0px;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  color: grey;
+}

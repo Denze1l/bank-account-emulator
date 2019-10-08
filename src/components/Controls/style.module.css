@@ -1,0 +1,37 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 40px;
+  background-color: rgb(14, 14, 122);
+  padding: 50px 0px;
+}
+
+section input {
+  margin-right: 30px;
+  border-radius: 6px;
+  width: 250px;
+  outline: none;
+}
+
+section button {
+  margin-top: 5px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  vertical-align: center;
+  cursor: pointer;
+  background-color: rgb(28, 28, 219);
+  outline: none;
+  font-weight: 600;
+}
+
+section button:active {
+  background-color: rgb(80, 70, 177);
+}
+
+section button:last-child {
+  margin-left: 20px;
+}

@@ -1,0 +1,31 @@
+.history {
+  border-collapse: collapse;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 5px black;
+}
+
+th,
+td {
+  border: 1px solid gainsboro;
+  text-align: center;
+  line-height: 25px;
+}
+
+th {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.722);
+  background-color: rgba(220, 220, 220, 0.452);
+  border: 1px solid gainsboro;
+}
+
+td {
+  font-weight: normal;
+  color: grey;
+  line-height: 30px;
+  text-transform: capitalize;
+}
